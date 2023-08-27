@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style 2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="cont">
+        <nav>
+          <div class="top">
+            <div class="logo">
+                <h1>SOLO <span>KU</span></h1>
+            </div>
+            <div class="hamburger">
+              <i class="fa fa-bars"></i>
+            </div>
+          </div>
+            <ul class="menu">
+              <li><a href="About.html">About</a></li>
+              <li><a href="Philosophy.html">Philosophy</a></li>
+              <li ><a href="Palaces.html" >Places</a></li>
+              <li><a href="Food.html">Food</a></li>
+              <li><a href="persis.html" >Persis Solo</a></li>
+              <hr>
+              <li><a href="teams.html" class="active">Our Teams</a></li>
+
+            </ul>
+        </nav>
+        <div class="tim">
+          <img src="https://thumb.viva.co.id/media/frontend/tokoh/2017/08/16/59941b71bae54-mohammad-hatta2_216_287.jpg" alt="" srcset="">
+          <div class="atu">
+            <p class="satu-p">Indragiri</p>
+           
+            <p class="dua-p">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod adipisci ab molestiae, magnam nam minima fugit, odit, dolores ipsum dolorum neque doloribus eius animi enim accusamus quas commodi molestias. adipisicing elit. Aliquam, aperiam.lorem5 Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="tim2">
+          
+          <div class="atu">
+            <p class="satu-p">Alrizky</p>
+           
+            <p class="dua-p">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod adipisci ab molestiae, magnam nam minima fugit, odit, dolores ipsum dolorum neque doloribus eius animi enim accusamus quas commodi molestias. adipisicing elit. Aliquam, aperiam.lorem5 Lorem ipsum dolor sit amet.</p>
+          </div>
+          <img src="https://thumb.viva.co.id/media/frontend/tokoh/2017/08/16/59941b71bae54-mohammad-hatta2_216_287.jpg" alt="" srcset="">
+        </div>
+        <div class="tim3">
+          <img src="https://thumb.viva.co.id/media/frontend/tokoh/2017/08/16/59941b71bae54-mohammad-hatta2_216_287.jpg" alt="" srcset="">
+          <div class="atu">
+            <p class="satu-p">Sangkan</p>
+           
+            <p class="dua-p">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod adipisci ab molestiae, magnam nam minima fugit, odit, dolores ipsum dolorum neque doloribus eius animi enim accusamus quas commodi molestias. adipisicing elit. Aliquam, aperiam.lorem5 Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+
+
+    </div>
+     <script>
+        const nav = document.querySelector("nav");
+        const hamburger = document.querySelector(".hamburger");
+        const menu = document.querySelector(".menu");
+
+        hamburger.addEventListener('click', function(){
+          nav.classList.toggle("turun");
+          menu.classList.toggle("turun");
+        });
+
+      </script>
+</body>
+</html>

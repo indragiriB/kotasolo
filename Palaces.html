@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style 2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="cont">
+        <nav>
+         <div class="top">
+            <div class="logo">
+                <h1>SOLO <span>KU</span></h1>
+            </div>
+            <div class="hamburger">
+              <i class="fa fa-bars"></i>
+            </div>
+          </div>
+      
+    
+            <ul class="menu">
+                <li><a href="About.html">About</a></li>
+                <li><a href="Philosophy.html">Philosophy</a></li>
+                <li ><a href="" class="active">Places</a></li>
+                <li><a href="Food.html">Food</a></li>
+                <li><a href="persis.html" >Persis Solo</a></li>
+                <hr>
+                <li><a href="teams.html" >Our Teams</a></li>
+
+            </ul>
+        </nav>
+
+     <div class="gmbr">
+        <img src="https://fajar.co.id/wp-content/uploads/2023/08/IMG_20230812_123917.jpg" alt="">
+       <div class="awan">
+        <p class="timo">Manahan Solo</p>
+        <p class="widi">Stadion Manahan di Surakarta, Indonesia, berkapasitas 25.000 penonton, markas klub Persis Solo. Pernah menjadi tuan rumah ASEAN Para Games 2011, diresmikan oleh Presiden Soeharto pada 21 Februari 1998. Terletak di pusat kota, dekat dengan fasilitas penting.</p>
+     </div>
+       <hr>
+       </div>
+      <div class="gmbr2">
+        <img src="https://asset.kompas.com/crops/caX4LD6OCKEWrssB_JnXoJAjSBo=/0x0:0x0/750x500/data/photo/2022/07/28/62e1b51cabf56.jpg" alt="" srcset="">
+        <div class="awan ">
+        <p class="timo">Keraton solo</p>
+        <p class="widi">Keraton Surakarta, istana Kesunanan Surakarta Hadiningrat di Surakarta, didirikan oleh Sri Susuhunan Pakubuwana II pada tahun 1743-1744. Kompleks seluas 147 hektar ini masih berfungsi sebagai tempat tinggal Sri Susuhunan dan objek wisata dengan museum. Arsitektur istananya merupakan salah satu yang terbaik dalam arsitektur istana Jawa.</p>
+      </div>
+        <hr>
+      </div>
+      <div class="gmbr3">
+        <img src="https://awsimages.detik.net.id/community/media/visual/2023/03/23/1475304028-4_169.jpeg?w=1200" alt="">
+       <div class="awan">
+        <p class="timo">Masjid Zayid</p>
+        <p class="widi">Masjid Sheikh Zayed Surakarta, sebuah replika dari Masjid Sheikh Zayed di Abu Dhabi, selesai dibangun pada tahun 2021 dan resmi diresmikan pada 14 November 2022. Didesain dengan cermat meniru struktur aslinya, masjid ini memiliki empat menara, satu kubah utama yang indah, serta ornamen khas Timur Tengah.</p>
+     </div>
+       <hr>
+       </div>
+    </div>
+     <script>
+        const nav = document.querySelector("nav");
+        const hamburger = document.querySelector(".hamburger");
+        const menu = document.querySelector(".menu");
+
+        hamburger.addEventListener('click', function(){
+          nav.classList.toggle("turun");
+          menu.classList.toggle("turun");
+        });
+
+      </script>
+</body>
+</html>

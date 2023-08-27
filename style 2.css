@@ -1,0 +1,608 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+scroll-behavior: smooth;}
+body::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: transparent; /* Transparent track */
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Transparent thumb */
+    border: none; /* No border on thumb */
+  }
+nav img{
+    width: 10vw;
+    height: 5vw;
+}
+body{
+
+    font-family: 'Helvetica",arial,sans-serif';
+  
+}
+.logo h1{
+ font-size: 1000;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: bolder;
+}
+span{
+    color: red;
+}
+.logo{
+    margin-left: -15%;
+   
+}
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+   
+    color: darkgray;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5%;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    width: fit-content;
+    padding-left: 3%;
+    padding-top: 5%;
+}
+nav ul{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+    width: fit-content;
+}
+.active {
+    color: rgb(23, 23, 23);
+}
+
+.hero img{
+    width:  40vw;
+    height: 25vw;
+}
+.hero9 img{
+    width:  40vw;
+    height: 25vw;
+}
+nav ul li a:hover{
+
+    color: rgb(23, 23, 23);
+
+}
+nav ul li:nth-child(5) {
+    width: fit-content;
+   
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 0.1rem;
+
+
+
+}
+.flex9{
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 0.1rem;
+
+
+
+}
+
+li {
+    transition: .5s;
+}
+
+
+.hero{
+    width: 50%;
+    margin-top: -15%;
+    display: flex;
+    margin-left: 30%;
+  
+    gap: 3rem;
+}
+.hero9{
+    width: 50%;
+    margin-top: 15%;
+    display: flex;
+margin-bottom: 10%; 
+   margin-left: 30%;
+    gap: 3rem;
+}
+.satu-p{
+    font-size: xx-large;
+
+}
+.dua-p{
+    color: darkgray;
+    padding-top: -20%;
+    font-size: large;
+}
+.gmbr img{
+    width:  50vw;
+    height: 30vw;
+}
+.timo{
+    font-size: xx-large;
+    color: black !important;
+}
+.gmbr{
+    margin-top: -15%;
+    display: flex;
+    margin-left: 20%;
+    gap: 3rem;
+}
+.awan{
+    display: flex;
+    flex-direction: column;
+    color: darkgray;
+    letter-spacing: 0.1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 20%;
+}
+.gmbr2 img{
+    width:  50vw;
+    height: 30vw;
+}
+hr{
+  display: flex;
+    
+}
+img {
+    border-radius: 10px;
+}
+.satu-p {
+    /* border-bottom: 1px solid black; */
+    padding-bottom: 5px;
+    /* text-align: center; */
+}
+.gmbr2{
+display: flex;
+gap: 3rem;
+margin-left: 20%;
+margin-top: 10%;
+}
+.gmbr3{ display: flex;
+gap: 3rem;
+ margin-left: 20%;
+ margin-top: 15%;
+ margin-bottom: 10%;
+    }
+.gmbr3 img{
+ width:  50vw;
+  height: 30vw;
+  }   
+
+  .lore{
+    display: flex;
+    width: 50%;
+    margin-top: -15%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    gap: 3rem;
+
+  }
+  .lore1{
+    display: flex;
+    width: 50%;
+    margin-top: 10%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    gap: 3rem;
+
+  }
+  .lore2{
+    display: flex;
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    gap: 3rem;
+
+  }
+
+  .rava img{
+    width:  20vw;
+    filter: grayscale(5);
+    height:  15vw;
+    transition: 0.7s;
+
+
+  }
+  .rava{
+    display: flex;
+    max-width:  100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+   margin-bottom: 10%;
+    margin-left: 10%;
+    margin-top: -20%;
+    
+  }
+  .yin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  
+  .nabi{
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  }
+ 
+  .rava img:hover{
+  filter: none ;
+  transition: 0.7s;
+  transform: scale(1.1);
+  cursor: pointer;
+  }
+
+
+
+
+ 
+
+  .makan p{
+    color: darkgray;
+  }
+.makan {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    margin-top: 10%;
+   
+
+}
+
+.makan div {
+    width: 30%;
+    height: 300px;
+}
+
+.makan div div {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(5);
+    margin-top: -25%;
+    transition: .5s;
+    cursor: pointer;
+}
+.makan div div:hover {
+    filter: grayscale(0);
+}
+
+.makan1 .gambarmakan {
+    background-image: url(https://cdn.idntimes.com/content-images/post/20190613/kyirfano-13703081-1209070022471511-565317789-n-de6404f4af95edb3fb94cdba3f17ad48_600x400.jpg);
+    width: 25vw;
+    height: 15vw;
+}
+.makan2 .gambarmakan {
+    background-image: url(https://asset.kompas.com/crops/DURp4D4IIdNxaRvBDPUiYzJLgxY=/1x0:1000x666/750x500/data/photo/2020/11/12/5fad3a6037c19.jpg);
+    width: 25vw;
+    height: 15vw;
+}
+.makan3 .gambarmakan {
+    background-image: url(https://www.masakapahariini.com/wp-content/uploads/2021/07/Nasi-Liwet-Sunda.jpg);
+    width: 25vw;
+    height: 15vw;
+}
+.makan4 .gambarmakan {
+    background-image: url(https://visitjawatengah.jatengprov.go.id/assets/images/eb000e9e-9483-4749-9800-2875bccfd69c.jpg);
+    width: 25vw;
+    height: 15vw;
+    margin-top: 15%;
+}
+.makan5 .gambarmakan {
+    background-image: url(https://kurio-img.kurioapps.com/21/11/15/96eb40d6-584e-449d-b019-d87b8e0a6ca6.jpe);
+    width: 25vw;
+    height: 15vw;
+    margin-top: 15%;
+}
+.makan6 .gambarmakan {
+    background-image: url(https://asset-a.grid.id//crop/0x0:0x0/700x465/photo/2018/09/19/224339867.jpg);
+    width: 25vw;
+    height: 15vw;
+    margin-top: 15%;
+}
+
+.makan div p:nth-child(2)  {
+    font-size: 2rem;
+    color: black;
+    padding: 10px 0 10px 0;
+    opacity: 0;
+    font-weight: 750;
+}
+.makan div p {
+    color: rgb(48, 48, 48);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.makan div div:hover ~ p  {
+    opacity: 1;
+}
+.tim{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-top: -15%;
+    gap: 5%;
+    margin-left: 25%;
+    flex-direction: row;
+ 
+}
+.atu{
+    
+display: flex;
+ flex-direction: column;
+ padding-top: 10%;
+ width: 50%;
+ gap: 1rem;
+
+
+
+
+  
+}
+.atu img{
+    width: 300px;
+  
+    height: 400px;
+}
+
+
+.tim2{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    gap: 5%;
+    margin-left: 25%;
+    flex-direction: row;
+ 
+}
+
+
+.tim3{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    gap: 5%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    flex-direction: row;
+ 
+}
+
+.gajah{
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    width: 70%;
+
+}
+
+.color{
+
+    filter: grayscale(3);
+
+}
+
+.gray{
+
+    filter: none;
+}
+.gajah img{
+
+    width: 20dvw;
+   
+    height: 12dvw;
+}
+
+
+
+
+.makan .pao{
+  color: darkgray !important;
+  line-height: 1.2em;
+}
+
+.hamburger {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .rava img{
+       width: 40vw;
+       height: 35vw;
+    }
+    .rava{
+        margin: 0 25vw;
+        margin-top: 100px;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 100px;
+        
+    }
+    .hero9{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    .hero img{
+        width:  60vw;
+        height: 60vw;
+    }
+
+    .hero9 img{
+        width:  60vw;
+        height: 60vw;
+    }
+    .lore,.lore1,.lore2{
+       text-align: center;
+       display: flex;
+       margin-left: 25%;
+    }
+    .gmbr, .gmbr2, .gmbr3{
+        flex-direction: column;
+     justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        margin-left: -0.5%;
+      
+        
+    }
+    .yin{
+        padding: 1rem;
+    }
+    .yin img{
+        width: 50vw;
+        height: 30vw;
+        z-index: -4;
+    }
+    .gmbr {
+    margin-top: 100px;
+
+    }
+    .gmbr img{
+       width: 75vw;
+       height: 45vw;
+    }
+    .gmbr2 img{
+        width: 75vw;
+        height: 45vw;
+         
+     }
+     .gmbr3 img{
+        width: 75vw;
+        height: 45vw;
+         
+     }
+     .lore{
+        margin-top: 100px;
+     }
+    hr {
+        display: none;
+    }
+    .awan{
+      width: unset;
+      padding: 1.5rem;
+    }
+    .makan{
+        flex-direction: column;
+        width: 30%;
+    }
+    .gajah{
+        flex-direction: column;
+        margin-left: 15%;
+        align-items: center;
+        
+    }
+    .panji{
+        margin-left: 0;
+    }
+    .gajah img{
+
+        width: 60dvw;
+        height: 35dvw;
+        z-index: -5;
+        
+    }
+    .tim {
+        margin-top: 100px;
+    }
+    /* HAMBURGERRRRRR */
+    nav {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        text-align: center;
+        margin: 0 auto;
+        box-shadow: 1px 2px 1px 0 rgba(0, 0, 0, 0.101)
+    }
+    nav.turun {
+        height: 100%;
+    }
+    .top {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        gap: 50%;
+        width: 100%;
+    }
+    .logo {
+        margin: auto;
+    }
+    .hamburger {
+        display: block;
+        font-size: 1.5em;
+        margin: 0 50px 0 0;
+    }
+    .hamburger:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .menu {
+        width: 105%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        opacity: 1;
+        padding: 50px 0;
+        position: relative;
+        right: 20px;
+        transform: translateX(1000px);
+        box-shadow: 1px 2px 1px 0 rgba(0, 0, 0, 0.101);
+    }
+    .menu.turun {
+        transform: translate(0);
+    }
+    .menu li:nth-child(5) {
+        text-align: center;
+        width: 100%;
+    }
+  
+  }

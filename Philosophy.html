@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style 2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="cont">
+        <nav>
+            <div class="top">
+            <div class="logo">
+                <h1>SOLO <span>KU</span></h1>
+            </div>
+            <div class="hamburger">
+              <i class="fa fa-bars"></i>
+            </div>
+          </div>
+            <ul class="menu">
+                <li><a href="About.html">About</a></li>
+                <li><a href="" class="active">Philosophy</a></li>
+                <li><a href="Palaces.html">Places</a></li>
+                <li><a href="Food.html">Food</a></li>
+                <li><a href="persis.html">Persis Solo</a></li>
+                <hr>
+                <li><a href="team.html">Our Teams</a></li>
+
+            </ul>
+        </nav>
+        <div class="lore">
+            <p class="satu-p">Story About Surakarta</p>
+            <p class="dua-p">Solo, atau Surakarta, kota di Jawa Tengah, Indonesia, adalah tempat bersejarah dengan
+                Keraton Surakarta sebagai pusatnya. Kaya akan seni tradisional Jawa, musik gamelan, wayang kulit, dan
+                batik. Solo juga memiliki pasar tradisional yang ramai, kuliner lezat, dan taman-taman yang indah. Kota
+                ini menciptakan perpaduan unik antara tradisi dan modernitas</p>
+            <hr>
+        </div>
+        <div class="lore1">
+            <p class="satu-p">Daerah Istimewa Surakarta</p>
+            <p class="dua-p">Daerah Istimewa Surakarta, atau Surakarta, adalah bekas keresidenan dan pusat budaya di
+                Jawa Tengah, Indonesia. Terkenal karena Keraton Surakarta yang megah, seni tradisional seperti wayang
+                kulit dan tari bedhaya, serta batik khas. Kota ini memiliki warisan sejarah yang kuat dan merayakan
+                budaya Jawa dengan perayaan tahunan seperti Grebeg Maulud dan Sekaten.</p>
+            <hr>
+        </div>
+        <div class="lore2">
+            <p class="satu-p">Karesidenan Surakarta</p>
+            <p class="dua-p">Karesidenan Surakarta adalah wilayah sejarah di Jawa Tengah, Indonesia. Terkenal dengan
+                Kera
+                ton Surakarta yang megah dan budaya Jawa yang kaya. Daerah ini mencakup Kota Surakarta dan sekitarnya.
+                Meskipun status resminya tela
+                h digantikan oleh pembagian administratif modern, karesidenan ini tetap memiliki peran penting dalam
+                melestarikan tradisi Jawa.</p>
+            <hr>
+        </div>
+
+
+
+    </div>
+     <script>
+        const nav = document.querySelector("nav");
+        const hamburger = document.querySelector(".hamburger");
+        const menu = document.querySelector(".menu");
+
+        hamburger.addEventListener('click', function(){
+          nav.classList.toggle("turun");
+          menu.classList.toggle("turun");
+        });
+
+      </script>
+</body>
+
+</html>
